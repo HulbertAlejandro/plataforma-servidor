@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.9" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="co.uniquindio.plataforma.modelo.Cliente" id="Cliente0">
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>nombre</string>
+     <void method="set">
+      <object idref="Cliente0"/>
+      <string>Alejandro</string>
+     </void>
+    </void>
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>rutaArticulos</string>
+     <void method="set">
+      <object idref="Cliente0"/>
+      <string>C:\Users\hulbe\OneDrive\Documentos\ArticulosClientes</string>
+     </void>
+    </void>
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>rutaFotos</string>
+     <void method="set">
+      <object idref="Cliente0"/>
+      <string>C:\Users\hulbe\OneDrive\Documentos\FotosClientes</string>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
