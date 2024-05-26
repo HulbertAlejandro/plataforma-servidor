@@ -154,8 +154,7 @@ public class PlataformaServidor {
     }
 
 
-    public Noticia agregarNoticia(String titulo, String contenido, String autor, LocalDate fecha){
-
+    public Noticia agregarNoticia(String titulo, String contenido, String autor, LocalDate fecha) {
         if (titulo == null || titulo.isEmpty()) {
             throw new IllegalArgumentException("El título de la noticia no puede estar vacío");
         }
@@ -170,20 +169,12 @@ public class PlataformaServidor {
         }
 
         Noticia noticia = new Noticia(titulo, contenido, autor, fecha);
-
         ArrayList<Noticia> noticias = socioPublicadorAutenticado.getNoticias();
-
-        // Agregar la noticia al ArrayList de noticias del socioPublicadorAutenticado
         noticias.add(noticia);
 
-        // Escribir la noticia en algún medio de persistencia (archivo, base de datos, etc.)
         escribirNoticia();
-
         escribirSocioPublicador();
 
-        cargarNoticiaSocio();
-
-        // Loggear el registro de la noticia
         log.info("Se ha registrado una nueva noticia");
 
         return noticia;
@@ -249,7 +240,14 @@ public class PlataformaServidor {
         }
     }
 
-    private void limpiarCarpeta(String rutaCarpeta) {
+    public void limpiarListaSociosPublicadores() {
+        for (SocioPublicador socio : sociosPublicadores) {
+            socio.getNoticias().clear();
+        }
+        escribirSocioPublicador();
+    }
+
+    public void limpiarCarpeta(String rutaCarpeta) {
         try {
             Path carpeta = Paths.get(rutaCarpeta);
             Files.walk(carpeta)
@@ -261,90 +259,71 @@ public class PlataformaServidor {
         }
     }
 
-    public void cargarNoticiaSocio() {
-        // Obtener la ruta de la carpeta de artículos del socioPublicador
-        String rutaCarpetaArticulos = socioPublicadorAutenticado.getRutaArticulos() + File.separator + socioPublicadorAutenticado.getId();
 
-        // Verificar y crear la carpeta del socioPublicador si no existe
-        crearCarpeta(rutaCarpetaArticulos);
+    public void guardarNoticiaEnCarpeta(Noticia noticia, String rutaCarpeta) {
+        try {
+            File archivoNoticia = new File(rutaCarpeta + File.separator + noticia.getTitulo() + ".xml");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.newDocument();
 
-        // Limpiar la carpeta de artículos del socioPublicador
-        limpiarCarpeta(rutaCarpetaArticulos+"/"+socioPublicadorAutenticado.getId());
+            Element rootElement = doc.createElement("noticia");
+            doc.appendChild(rootElement);
 
-        // Guardar las noticias en la carpeta del socioPublicador
-        for (Noticia noticia : socioPublicadorAutenticado.getNoticias()) {
-            guardarNoticiaEnCarpeta(noticia, rutaCarpetaArticulos);
+            Element titulo = doc.createElement("titulo");
+            titulo.appendChild(doc.createTextNode(noticia.getTitulo()));
+            rootElement.appendChild(titulo);
+
+            Element contenido = doc.createElement("contenido");
+            contenido.appendChild(doc.createTextNode(noticia.getContenido()));
+            rootElement.appendChild(contenido);
+
+            Element autor = doc.createElement("autor");
+            autor.appendChild(doc.createTextNode(noticia.getAutor()));
+            rootElement.appendChild(autor);
+
+            Element fecha = doc.createElement("fecha");
+            fecha.appendChild(doc.createTextNode(noticia.getFecha().toString()));
+            rootElement.appendChild(fecha);
+
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(archivoNoticia);
+            transformer.transform(source, result);
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
+    public void limpiarCarpetaSocios() {
+        String rutaBase = "C:\\Users\\hulbe\\OneDrive\\Documentos\\ArticulosSocios";
+        File carpetaBase = new File(rutaBase);
+        if (carpetaBase.exists() && carpetaBase.isDirectory()) {
+            File[] carpetasSocios = carpetaBase.listFiles();
+            if (carpetasSocios != null) {
+                for (File carpetaSocio : carpetasSocios) {
+                    if (carpetaSocio.isDirectory()) {
+                        limpiarCarpeta(carpetaSocio);
+                    }
+                }
+            }
+        } else {
+            System.out.println("La carpeta base de los socios no existe o no es una carpeta válida.");
+        }
+    }
 
-    public void guardarNoticiaEnCarpeta(Noticia noticia, String rutaCarpeta) {
-        String nombreArchivo = noticia.getTitulo().replace(" ", "_") + ".xml";
-        String rutaArchivo = rutaCarpeta + File.separator + nombreArchivo;
-
-        try {
-            // Crear el documento XML para la noticia
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.newDocument();
-
-            // Crear el elemento raíz <nitf>
-            Element nitf = doc.createElement("nitf");
-            nitf.setAttribute("xmlns", "");
-            nitf.setAttribute("xmlns:xsi", "");
-            nitf.setAttribute("xsi:schemaLocation", "");
-            doc.appendChild(nitf);
-
-            // Crear el elemento <head>
-            Element head = doc.createElement("head");
-            nitf.appendChild(head);
-
-            // Crear el elemento <title> dentro de <head>
-            Element title = doc.createElement("title");
-            title.setTextContent(noticia.getTitulo());
-            head.appendChild(title);
-
-            // Crear el elemento <docdata> dentro de <head>
-            Element docdata = doc.createElement("docdata");
-            head.appendChild(docdata);
-
-            // Crear el elemento <date.issue> dentro de <docdata>
-            Element dateIssue = doc.createElement("date.issue");
-            dateIssue.setTextContent(noticia.getFecha().toString()); // Usar formato de fecha adecuado
-            docdata.appendChild(dateIssue);
-
-            // Crear el elemento <doc.copyright> dentro de <docdata>
-            Element docCopyright = doc.createElement("doc.copyright");
-            docCopyright.setTextContent(noticia.getAutor());
-            docdata.appendChild(docCopyright);
-
-            // Crear el elemento <body>
-            Element body = doc.createElement("body");
-            nitf.appendChild(body);
-
-            // Crear el elemento <body.content> dentro de <body>
-            Element bodyContent = doc.createElement("body.content");
-            bodyContent.setTextContent(noticia.getContenido());
-            body.appendChild(bodyContent);
-
-            // Escribir el contenido del documento XML en el archivo
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-
-            // Crear fuente de origen DOM
-            DOMSource source = new DOMSource(doc);
-
-            // Crear resultado de salida en archivo
-            StreamResult result = new StreamResult(new File(rutaArchivo));
-
-            // Transformar y escribir el contenido en el archivo XML
-            transformer.transform(source, result);
-
-            System.out.println("Noticia guardada correctamente en: " + rutaArchivo);
-        } catch (ParserConfigurationException | TransformerException e) {
-            e.printStackTrace();
-            System.err.println("Error al escribir la noticia en el archivo: " + e.getMessage());
+    private void limpiarCarpeta(File carpeta) {
+        File[] archivos = carpeta.listFiles();
+        if (archivos != null) {
+            for (File archivo : archivos) {
+                if (archivo.isDirectory()) {
+                    limpiarCarpeta(archivo);
+                } else {
+                    archivo.delete();
+                }
+            }
         }
     }
 

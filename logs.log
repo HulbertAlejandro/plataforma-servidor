@@ -284,3 +284,281 @@ may 17, 2024 6:08:36 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor a
 INFO: Se ha registrado una nueva noticia
 may 17, 2024 6:11:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
 INFO: Se ha registrado una nueva noticia
+may 25, 2024 5:54:12 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 5:58:18 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarCliente
+INFO: Se ha registrado un nuevo cliente con el nombre: Mauricio Rios
+may 25, 2024 5:58:39 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 6:47:52 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 6:51:40 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 7:00:29 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 7:03:25 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 7:12:19 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 7:14:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 7:14:34 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 7:24:39 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 7:28:36 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 7:29:04 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 7:48:02 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 7:54:12 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 7:56:26 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 8:00:32 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 8:02:23 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 8:06:22 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 8:13:10 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 8:13:48 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 8:19:57 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 8:22:33 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 8:23:08 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 9:44:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 9:47:21 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 9:48:46 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 9:53:49 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 10:05:55 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 10:07:00 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 10:08:10 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 10:08:39 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 10:12:27 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 10:13:35 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 10:23:00 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 25, 2024 10:25:59 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 25, 2024 10:26:52 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 25, 2024 10:45:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 8:55:27 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 8:57:33 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 9:00:10 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 9:15:14 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 9:20:15 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 9:20:59 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 9:24:57 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 9:26:27 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 9:28:01 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 9:39:26 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 9:43:41 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 9:44:25 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 9:57:28 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 9:57:59 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 10:01:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 10:01:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 10:01:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 10:03:02 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 10:03:27 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 10:19:15 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 10:19:16 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 10:19:16 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 10:21:58 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 10:23:38 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 10:28:01 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:12:24 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:20:19 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:20:20 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 11:20:20 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 11:21:50 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 11:22:13 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 11:28:02 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:28:03 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 11:28:03 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 11:29:22 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 11:29:52 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 11:38:21 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:39:32 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:39:32 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 11:39:32 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 11:43:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:43:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 11:43:00 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 11:43:02 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Alejandro
+may 26, 2024 11:44:04 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 11:47:44 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:48:37 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:54:03 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:55:20 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 11:55:21 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Juan
+may 26, 2024 11:55:49 A. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:08:34 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:08:35 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerCliente
+SEVERE: El archivo está vacío: src/main/resources/persistencia/clientes.txt
+may 26, 2024 12:08:35 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:08:35 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:11:53 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:11:53 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerCliente
+SEVERE: El archivo está vacío: src/main/resources/persistencia/clientes.txt
+may 26, 2024 12:11:54 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:11:54 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:11:55 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarCliente
+INFO: Se ha registrado un nuevo cliente con el nombre: Alejandro
+may 26, 2024 12:12:05 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarCliente
+INFO: Se ha registrado un nuevo cliente con el nombre: Juan
+may 26, 2024 12:12:38 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Mauricio
+may 26, 2024 12:12:48 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Ana
+may 26, 2024 12:13:27 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:27:06 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:27:07 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:27:07 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo XML está vacío o no contiene un objeto válido: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:30:07 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:30:07 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:30:07 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo XML está vacío o no contiene un objeto válido: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:30:42 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Mauricio
+may 26, 2024 12:30:50 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Ana
+may 26, 2024 12:31:19 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:35:53 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:36:59 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:38:49 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:38:49 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:38:49 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:40:11 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:40:11 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:40:11 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:40:12 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Mauricio
+may 26, 2024 12:40:21 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Ana
+may 26, 2024 12:40:47 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:47:00 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:47:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:47:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:48:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 12:48:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerNoticias
+SEVERE: El archivo está vacío: src/main/resources/persistencia/noticias.txt
+may 26, 2024 12:48:01 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor leerSociosPublicadores
+SEVERE: El archivo está vacío: src/main/resources/persistencia/sociosPublicadores.txt
+may 26, 2024 12:48:02 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Mauricio
+may 26, 2024 12:48:09 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarSocioPublicador
+INFO: Se ha registrado un nuevo socio/publicador con el nombre: Ana
+may 26, 2024 12:48:31 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:51:02 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 12:59:03 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 1:00:26 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 1:01:12 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor agregarNoticia
+INFO: Se ha registrado una nueva noticia
+may 26, 2024 1:05:37 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 1:06:35 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 1:10:43 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma
+may 26, 2024 1:11:20 P. M. co.uniquindio.plataforma.modelo.PlataformaServidor <init>
+INFO: Se crea una nueva instancia de la Plataforma

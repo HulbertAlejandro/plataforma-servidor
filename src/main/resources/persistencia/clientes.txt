@@ -26,5 +26,37 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="co.uniquindio.plataforma.modelo.Cliente" id="Cliente1">
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>idCliente</string>
+     <void method="set">
+      <object idref="Cliente1"/>
+      <long>1</long>
+     </void>
+    </void>
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>nombre</string>
+     <void method="set">
+      <object idref="Cliente1"/>
+      <string>Juan</string>
+     </void>
+    </void>
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>rutaArticulos</string>
+     <void method="set">
+      <object idref="Cliente1"/>
+      <string>C:\Users\hulbe\OneDrive\Documentos\ArticulosClientes</string>
+     </void>
+    </void>
+    <void class="co.uniquindio.plataforma.modelo.Cliente" method="getField">
+     <string>rutaFotos</string>
+     <void method="set">
+      <object idref="Cliente1"/>
+      <string>C:\Users\hulbe\OneDrive\Documentos\FotosClientes</string>
+     </void>
+    </void>
+   </object>
+  </void>
  </object>
 </java>

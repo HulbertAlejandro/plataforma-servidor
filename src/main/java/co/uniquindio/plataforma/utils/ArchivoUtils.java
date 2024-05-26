@@ -16,10 +16,14 @@ public class ArchivoUtils {
      * @throws FileNotFoundException Si la ruta del archivo no es válida
      */
     public static void serializarObjetoXML(String ruta, Object objeto) throws FileNotFoundException {
-        XMLEncoder encoder = new XMLEncoder(new FileOutputStream(ruta));
-        encoder.writeObject(objeto);
-        encoder.close();
+        try (XMLEncoder encoder = new XMLEncoder(new FileOutputStream(ruta))) {
+            encoder.writeObject(objeto);
+        } catch (FileNotFoundException e) {
+            System.err.println("Error: El archivo no se encontró.");
+            throw e;
+        }
     }
+
 
     /**
      * Deserializa un objeto desde un archivo XML
@@ -29,31 +33,26 @@ public class ArchivoUtils {
      * @throws IOException Si ocurre un error de E/S al leer el archivo
      */
     public static Object deserializarObjetoXML(String ruta) throws IOException {
-        Object objeto = null;
-        try (XMLDecoder decoder = new XMLDecoder(new FileInputStream(ruta))) {
-            try {
-                objeto = decoder.readObject();
-                if (objeto == null) {
-                    System.out.println("Advertencia: El archivo XML está vacío o no contiene un objeto válido.");
-                }
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.err.println("Error: El archivo XML está vacío o no contiene un objeto válido.");
-            }
-        } catch (FileNotFoundException e) {
-            // Manejar el caso cuando el archivo no existe
-            System.err.println("Error: El archivo no se encontró.");
-            throw e;
-        } catch (IOException e) {
-            // Manejar otros errores de E/S
-            System.err.println("Error: Problema al leer el archivo.");
-            throw e;
-        } catch (Exception e) {
-            // Manejar cualquier otro error inesperado
-            System.err.println("Error: Ocurrió un problema inesperado al deserializar el objeto.");
-            throw e;
+        File archivo = new File(ruta);
+
+        // Verificar si el archivo existe y no está vacío
+        if (!archivo.exists()) {
+            throw new FileNotFoundException("El archivo no se encontró: " + ruta);
         }
-        return objeto;
+        if (archivo.length() == 0) {
+            throw new IOException("El archivo está vacío: " + ruta);
+        }
+
+        try (XMLDecoder decoder = new XMLDecoder(new FileInputStream(ruta))) {
+            return decoder.readObject();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            throw new IOException("El archivo XML está vacío o no contiene un objeto válido: " + ruta, e);
+        } catch (Exception e) {
+            throw new IOException("Ocurrió un problema inesperado al deserializar el objeto: " + ruta, e);
+        }
     }
+
+
 
     public static void crearCarpetaCliente(Cliente cliente) {
         // Crear la carpeta en la ruta especificada para los artículos
